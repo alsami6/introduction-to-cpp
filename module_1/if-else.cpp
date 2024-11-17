@@ -4,12 +4,8 @@ using namespace std;
 int main(){
     int x;
     cin >> x;
-    if(x % 2 == 0){
-        cout << "even";
-    }else{
-        cout << "Odd";
-    }
-
+    
+    x%2 == 0 ? cout << "Even\n" : cout << "Odd\n";
 
     return 0;
 }
