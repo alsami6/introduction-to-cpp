@@ -3,9 +3,13 @@ using namespace std;
 
 int main(){
     int x;
-    cin>>x;
+    cin >> x;
+    if(x % 2 == 0){
+        cout << "even";
+    }else{
+        cout << "Odd";
+    }
 
-    cout<<"The number is "<< x << endl;
 
     return 0;
 }
