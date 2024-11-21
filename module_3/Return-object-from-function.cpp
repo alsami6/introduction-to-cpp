@@ -7,10 +7,10 @@ class student {
     int cls;
     double gpa;
 
-    student(int r, int c, double g){
-        roll = r;
-        cls = c;
-        gpa = g;
+    student(int roll, int cls, double gpa){
+        this->roll = roll;
+        this->cls = cls;
+        this->gpa = gpa;
     }
 };
 
